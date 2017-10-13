@@ -57,6 +57,7 @@ Domain = fscanf(fp,'%d\n',[1,num_domain]);
 Domain = Domain';
 fclose(fp);
 
+
 NL(:,4) = Domain;
 NP = length(NDPP);              %边界上节点的个数 存入NP
 NF = num_nodes-NP;              %自由节点的个数
